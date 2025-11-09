@@ -1,0 +1,87 @@
+:root {
+  --noire: #000000;
+  --blanc: #ffffff;
+  --bleu: #411df4;
+
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #fff;
+    color: #333;
+  }
+  
+  header {
+    background: #00695c;
+    color: white;
+    padding: 15px;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 20px;
+  }
+  
+  nav ul {
+    color: black;
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    padding: 0;
+  }
+  
+  nav a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .hero {
+    padding: 50px;
+    text-align: center;
+    background: #e0f2f1;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+  }
+  
+  button {
+    background: #00695c;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 15px;
+    background: #004d40;
+    color: white;
+    margin-top: 20px;
+  }
+
+   /* logo : contrôlé par CSS, supprime l'attribut width dans HTML */
+  .navbar-brand .img {
+    width: 56px;      /* ajuste si besoin */
+    height: 30px;
+    display: block;
+    object-fit: cover;
+  }
+
+  /* ===== DIVIDERS ===== */
+.section-diviser {
+  width: 60px;
+  height: 3px;
+  background: linear-gradient(90deg, var(--bleu), var(--blanc));
+  border-radius: 2px;
+  margin: 1rem auto;
+}
+  
