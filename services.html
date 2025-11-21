@@ -7,6 +7,12 @@
   <!--Favicon-->
   <link rel="shortcut icon" href="Images/logo1.png" type="image/x-icon">
 
+    <!--Google fonts-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
   <!--Bootstrap CDN-->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 
@@ -15,12 +21,14 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
 
   <!--CSS-->
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="CSS/style.css">
 </head>
+
+
 <body>
 
 <!-- NAVBAR -->
-<nav class="navbar navbar-expand-lg navbar-white fixed-top bg-white py-0">
+<nav class="navbar navbar-expand-lg navbar-white bg-white py-0">
   <div class="container">
     <a class="navbar-brand" href="index.html">
         <img src="Images/logo1.png" alt="Clinique Médicale Malon" class="img-fluid logo" width="75" >
@@ -33,7 +41,6 @@
         <li class="nav-item"><a class="nav-link" href="index.html">Accueil</a></li>
         <li class="nav-item"><a class="nav-link" href="about.html">A propos</a></li>
         <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
-        <li class="nav-item"><a class="nav-link" href="doctors.html">Médecins</a></li>
         <li class="nav-item"><a class="nav-link" href="contact.html">Contacts</a></li>
       </ul>
     </div>
@@ -42,13 +49,299 @@
 </nav>
 
 
+<!--Nos différents services-->
+<section class="mt-5">
+  <div class="text-center mb-3">
+    <h2>Nos différents services</h2>
+    <p>Découvrez l'ensemble des spécialités médicales et paramédicales dont regorge notre clinique</p>
+  </div>
+  <div class="section-diviser mx-auto"></div>
+</section>
+
+
+<section class="mt-3">
+  <div class="container">
+    <div class="row">
+
+
+      <!--Items-->
+
+      <div class="col-md-4 d-flex flex-column">
+        <img src="Images/cardio.avif" class="img-fluid mb-3">
+        <h3 class="mt-2">Cardiologie</h3>
+        <p>Service spécialisé dans la prise en charge des maladies du cœur et des vaisseaux, avec un suivi personnalisé pour l’hypertension, les troubles du rythme et les pathologies coronariennes.</p>
+        <a href="#" class="btn btn-outline-dark mt-auto">En savoir plus</a>
+      </div>
+
+      <!--Items-->
+
+      <div class="col-md-4 d-flex flex-column">
+        <img src="Images/neuro.avif" class="img-fluid mb-3">
+        <h3 class="mt-2">Neurologie</h3>
+        <p>Consultations spécialisées pour les maladies du système nerveux : migraines, AVC, neuropathies, convulsions et troubles moteurs.</p>
+        <a href="#" class="btn btn-outline-dark mt-auto">En savoir plus</a>
+      </div>
+
+      <!--Items-->
+
+      <div class="col-md-4 d-flex flex-column">
+        <img src="Images/ortho.avif" class="img-fluid mb-3">
+        <h3 class="mt-2">Orthopédie</h3>
+        <p>Le service d’orthopédie assure la prise en charge des maladies et traumatismes du système musculo-squelettique : os, articulations, muscles, tendons et ligaments.</p>
+        <a href="#" class="btn btn-outline-dark mt-auto">En savoir plus</a>
+      </div>
+
+
+      <!--Items-->
+
+      <div class="col-md-4 d-flex flex-column mt-5">
+        <img src="Images/dermo.png" class="img-fluid mb-3">
+        <h3 class="mt-2">Dermatologie</h3>
+        <p>Diagnostic et traitement des maladies de la peau, cheveux et ongles, ainsi que des soins esthétiques modernes : peelings, lasers, réjuvenation et traitements anti-acné.</p>
+        <a href="#" class="btn btn-outline-dark mt-auto">En savoir plus</a>
+      </div>
+
+      <!--Items-->
+
+      <div class="col-md-4 d-flex flex-column mt-5">
+        <img src="Images/pediatrie.png" class="img-fluid mb-3">
+        <h3 class="mt-2">Pédiatrie</h3>
+        <p>Prise en charge complète des enfants de 0 à 15 ans, incluant les consultations, vaccinations et suivi de croissance, avec une équipe disponible tous les jours.</p>
+        <a href="#" class="btn btn-outline-dark mt-auto">En savoir plus</a>
+      </div>
+
+      <!--Items-->
+
+      <div class="col-md-4 d-flex flex-column mt-5">
+        <img src="Images/gynécologie.png" class="img-fluid mb-3">
+        <h3 class="mt-2">Gynécologie-Obstétrique</h3>
+        <p>Le service de Gynécologie & Obstétrique accompagne la femme à chaque étape de sa vie. <br> Nous assurons le suivi gynécologique complet — dépistages, infections, contraception, fertilité et échographies — tout en garantissant un accompagnement personnalisé pendant la grossesse. De la première consultation prénatale jusqu’à l’accouchement, nos spécialistes veillent au bien-être de la mère et du bébé grâce à une prise en charge moderne, sécurisée et bienveillante.</p>
+        <a href="#" class="btn btn-outline-dark mt-auto">En savoir plus</a>
+      </div>
+
+
+       <!--Items-->
+
+       <div class="col-md-4 d-flex flex-column mt-5">
+        <img src="Images/diab.png" class="img-fluid mb-3">
+        <h3 class="mt-2">Diabétologie</h3>
+        <p>Détection, suivi et traitement du diabète avec un accompagnement personnalisé pour l’équilibre glycémique et les complications liées.</p>
+        <a href="#" class="btn btn-outline-dark mt-auto">En savoir plus</a>
+      </div>
+
+      <!--Items-->
+
+      <div class="col-md-4 d-flex flex-column mt-5">
+        <img src="Images/endo.png" class="img-fluid mb-3">
+        <h3 class="mt-2">Endocrinologie</h3>
+        <p>Prise en charge des troubles hormonaux : thyroïde, métabolisme, croissance, fertilité et maladies des glandes endocrines.</p>
+        <a href="#" class="btn btn-outline-dark mt-auto">En savoir plus</a>
+      </div>
+
+      <!--Items-->
+
+      <div class="col-md-4 d-flex flex-column mt-5">
+        <img src="Images/orl.png" class="img-fluid mb-3">
+        <h3 class="mt-2">ORL (Oto-Rhino-Laryngologie)</h3>
+        <p>Traitement des maladies de l’oreille, du nez et de la gorge, incluant les troubles de l’audition, sinusites, allergies et vertiges.</p>
+        <a href="#" class="btn btn-outline-dark mt-auto">En savoir plus</a>
+      </div>
+
+       <!--Items-->
+
+       <div class="col-md-4 d-flex flex-column mt-5">
+        <img src="Images/gastroenterologie.png" class="img-fluid mb-3">
+        <h3 class="mt-2">Hépato-Gastro-Entérologie</h3>
+        <p>Gestion des maladies du système digestif : estomac, foie, colon, avec des examens adaptés (endoscopies, dépistages…).</p>
+        <a href="#" class="btn btn-outline-dark mt-auto">En savoir plus</a>
+      </div>
+
+      <!--Items-->
+
+      <div class="col-md-4 d-flex flex-column mt-5">
+        <img src="Images/proctologue.png" class="img-fluid mb-3">
+        <h3 class="mt-2">Proctologie/PPH</h3>
+        <p>Prise en charge des pathologies anales et hémorroïdaires, avec traitements médicaux et chirurgicaux adaptés.</p>
+        <a href="#" class="btn btn-outline-dark mt-auto">En savoir plus</a>
+      </div>
+
+      <!--Items-->
+
+      <div class="col-md-4 d-flex flex-column mt-5">
+        <img src="Images/gynécologie.png" class="img-fluid mb-3">
+        <h3 class="mt-2">Ophtalmologie</h3>
+        <p>Dépistage et traitement des maladies des yeux : troubles de la vision, infections, chirurgie mineure et examens spécialisés.</p>
+        <a href="#" class="btn btn-outline-dark mt-auto">En savoir plus</a>
+      </div>
+
+
+        <!--Items-->
+
+        <div class="col-md-4 d-flex flex-column mt-5">
+          <img src="Images/chirurgieped.png" class="img-fluid mb-3">
+          <h3 class="mt-2">Chirurgie pédiatrie</h3>
+          <p>Interventions chirurgicales pour les enfants, réalisées par des spécialistes formés aux techniques modernes et sécurisées.</p>
+          <a href="#" class="btn btn-outline-dark mt-auto">En savoir plus</a>
+        </div>
+  
+        <!--Items-->
+  
+        <div class="col-md-4 d-flex flex-column mt-5">
+          <img src="Images/uro.png" class="img-fluid mb-3">
+          <h3 class="mt-2">Urologie</h3>
+          <p>Spécialité chirurgicale pour le diagnostic et traitement des maladies des reins, vessie, prostate et voies urinaires chez l’homme et la femme.</p>
+          <a href="#" class="btn btn-outline-dark mt-auto">En savoir plus</a>
+        </div>
+  
+        <!--Items-->
+  
+        <div class="col-md-4 d-flex flex-column mt-5">
+          <img src="Images/traumato.png" class="img-fluid mb-3">
+          <h3 class="mt-2">Traumatologie</h3>
+          <p>Prise en charge des fractures, entorses, blessures sportives et urgences traumatiques avec une équipe expérimentée.</p>
+          <a href="#" class="btn btn-outline-dark mt-auto">En savoir plus</a>
+        </div>
+
+        
+        <!--Items-->
+
+        <div class="col-md-4 d-flex flex-column mt-5">
+          <img src="Images/chirurgiedig.png" class="img-fluid mb-3">
+          <h3 class="mt-2">Chirurgie digestive</h3>
+          <p>Interventions sur le système digestif, incluant appendicite, hernies, vésicule biliaire et pathologies abdominales.</p>
+          <a href="#" class="btn btn-outline-dark mt-auto">En savoir plus</a>
+        </div>
+  
+        <!--Items-->
+  
+        <div class="col-md-4 d-flex flex-column mt-5">
+          <img src="Images/chirurgieesth.png" class="img-fluid mb-3">
+          <h3 class="mt-2">Chirurgie esthétique</h3>
+          <p>Interventions visant l’amélioration esthétique et le bien-être du patient : remodelage, correction et soins spécialisés.</p>
+          <a href="#" class="btn btn-outline-dark mt-auto">En savoir plus</a>
+        </div>
+  
+        <!--Items-->
+  
+        <div class="col-md-4 d-flex flex-column mt-5">
+          <img src="Images/dentiste.png" class="img-fluid mb-3">
+          <h3 class="mt-2">Cabinet dentaire</h3>
+          <p>Le cabinet dentaire de la Clinique Médicale Malon propose des soins complets dédiés à la santé bucco-dentaire, alliant expertise, confort et technologies modernes. <br> Soins dentaires complets : consultations, soins conservateurs, extractions, esthétique dentaire et prévention.</p>
+          <a href="#" class="btn btn-outline-dark mt-auto">En savoir plus</a>
+        </div>
+
+           <!--Items-->
+
+           <div class="col-md-4 d-flex flex-column mt-5">
+            <img src="Images/irm.png" class="img-fluid mb-3">
+            <h3 class="mt-2">Imagerie médicale</h3>
+            <p>Doté d’appareils de dernière génération, notre service d'Imagerie médicale permet d’obtenir des images précises, essentielles au diagnostic et au suivi des pathologies.
+             <br>Ce service dispose notamment d’un IRM et d’un scanner, permettant l’exploration détaillée du cerveau, du thorax, de l’abdomen, de la colonne vertébrale et des articulations.
+              
+              <br>Horaires d’ouverture :
+              
+              <br>📅 Lundi à Vendredi : 07h30 – 17h30
+              
+              <br>📅 Samedi & Dimanche : 07h30 – 14h00</p>
+            <a href="#" class="btn btn-outline-dark mt-auto">En savoir plus</a>
+          </div>
+    
+          <!--Items-->
+    
+          <div class="col-md-4 d-flex flex-column mt-5">
+            <img src="Images/oph.png" class="img-fluid mb-3">
+            <h3 class="mt-2">Cabinet d'ophtalmologie</h3>
+            <p>Le cabinet d’ophtalmologie propose des consultations complètes pour le dépistage et le suivi des troubles visuels. <br> Il réalise la réfractométrie pour mesurer les défauts de vision, l’examen du champ visuel pour détecter glaucome et atteintes nerveuses, et prend en charge la chirurgie de la cataracte. <br> Équipé d’un matériel moderne, il assure un diagnostic rapide et une prise en charge fiable des principales pathologies oculaires.</p>
+            <a href="#" class="btn btn-outline-dark mt-auto">En savoir plus</a>
+          </div>
+    
+          <!--Items-->
+    
+          <div class="col-md-4 d-flex flex-column mt-5">
+            <img src="Images/labo.png" class="img-fluid mb-3">
+            <h3 class="mt-2">Laboratoire d'analyses médicales</h3>
+            <p>Le laboratoire d’analyses médicales de la Clinique Malon assure une large gamme d’examens de routine et spécialisés, indispensables au diagnostic, au suivi et à la prévention des maladies.
+              <br>Équipé d’appareils modernes et automatisés, il réalise des analyses rapides et fiables couvrant un grand nombre de spécialités.</p>
+            <a href="#" class="btn btn-outline-dark mt-auto">En savoir plus</a>
+          </div>
+
+                 <!--Items-->
+
+        <div class="col-md-4 d-flex flex-column mt-5">
+          <img src="Images/endos.png" class="img-fluid mb-3">
+          <h3 class="mt-2">Endoscopie digestive</h3>
+          <p>Le service d’endoscopie digestive permet d’explorer le tube digestif grâce à des techniques modernes et peu invasives. <br> Il inclut la coloscopie, qui examine le côlon pour dépister polypes, inflammations ou cancers ; <br> l’anuscopie, dédiée à l’évaluation des hémorroïdes, fissures et pathologies proctologiques ; et la fibroscopie (gastroscopie), qui visualise l’œsophage, l’estomac et le duodénum pour diagnostiquer brûlures, ulcères ou troubles digestifs. <br> Ces examens assurent un diagnostic précis et une prise en charge rapide des affections digestives.</p>
+          <a href="#" class="btn btn-outline-dark mt-auto">En savoir plus</a>
+        </div>
+  
+        <!--Items-->
+  
+        <div class="col-md-4 d-flex flex-column mt-5">
+          <img src="Images/maternité.png" class="img-fluid mb-3">
+          <h3 class="mt-2">Maternité</h3>
+          <p>La maternité accompagne les futures mamans du suivi de grossesse jusqu’à l’accouchement. Elle offre un encadrement médical sécurisé, des salles adaptées et un personnel spécialisé pour assurer le bien-être de la mère et du nouveau-né.</p>
+          <a href="#" class="btn btn-outline-dark mt-auto">En savoir plus</a>
+        </div>
+  
+        <!--Items-->
+  
+        <div class="col-md-4 d-flex flex-column mt-5">
+          <img src="Images/urgences.png" class="img-fluid mb-3">
+          <h3 class="mt-2">Urgences médicales</h3>
+          <p>Le service des urgences médicales fonctionne 24h/24 et 7j/7, assurant une prise en charge rapide des détresses vitales, traumatismes, douleurs aiguës et situations nécessitant une intervention immédiate. Une équipe expérimentée garantit des soins efficaces à tout moment.</p>
+          <a href="#" class="btn btn-outline-dark mt-auto">En savoir plus</a>
+        </div>
+
+
+
+          <!--AUTRES ATOUTS DE LA PHARMACIE MALON-->
+          <section class="mt-5">
+            <div class="text-center mb-3">
+              <h2>ATOUTS</h2>
+              <p>Il n'y a pas que des services spécialisés à la Clinique Médicale Malon</p>
+            </div>
+            <div class="section-diviser mx-auto"></div>
+          </section>
+
+              <!--Items-->
+
+        <div class="col-md-6 d-flex flex-column mt-5">
+          <img src="Images/ambu.png" class="img-fluid mb-3">
+          <h3 class="mt-2">Ambulance médicalisée</h3>
+          <p>La Clinique Médicale Malon met à disposition une ambulance médicalisée disponible 24h/24 et 7j/7, pour assurer un transport sécurisé des patients en situation d’urgence ou nécessitant une surveillance médicale continue.
+            <br>Une équipe formée (infirmiers urgentistes, ambulanciers qualifiés) assure un accompagnement rapide, rassurant et conforme aux standards de sécurité médicale.
+          </p>
+          <a href="#" class="btn btn-outline-dark mt-auto">En savoir plus</a>
+        </div>
+  
+        <!--Items-->
+  
+        <div class="col-md-6 d-flex flex-column mt-5">
+          <img src="Images/blocop.png" class="img-fluid mb-3">
+          <h3 class="mt-2">Bloc opératoire</h3>
+          <p>Le bloc opératoire est équipé de technologies modernes pour réaliser des interventions chirurgicales en toute sécurité. Il accueille les actes programmés ou urgents, dans un environnement contrôlé et conforme aux standards d’hygiène.</p>
+          <a href="#" class="btn btn-outline-dark mt-auto">En savoir plus</a>
+        </div>
+  
+   
+
+    </div>
+  </div>
+</section>
+
+
 <!-- FOOTER -->
 <footer class="bg-white text-black text-center py-3">
   <p>&copy; 2025 Clinique Médicale Malon | Port-Bouët - Quartier Serges Kassy près de la grande Mosquée.</p>
   <p>Propulsé par Go Studio</p>
 </footer>
 
+<!--Ion Icons-->
+<script  type ="module"  src =" https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script> 
+<script nomodule src ="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons"></script>
+
 <!-- Bootstrap JS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>
