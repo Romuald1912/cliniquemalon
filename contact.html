@@ -22,13 +22,13 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
 
     <!--CSS-->
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="CSS/style.css">
 
 </head>
 <body>
 
 <!-- NAVBAR -->
-<nav class="navbar navbar-expand-lg navbar-white fixed-top bg-white py-0">
+<nav class="navbar navbar-expand-lg navbar-white bg-white py-0">
   <div class="container">
     <a class="navbar-brand" href="index.html">
         <img src="Images/logo1.png" alt="Clinique Médicale Malon" class="img-fluid logo" width="75" >
@@ -50,66 +50,85 @@
 </nav>
 
 
-<!--Section à propos test-->
-<section id="about" class="py-5">
+<!--Nous retrouver-->
+
+<section class="text-center py-5 mt-lg-4 mb-lg-5">
+<h1 class="herotext">Nous trouver</h1>
+<div class="section-diviser"></div>
+<p>Téléphone, Fax, Réseaux sociaux, Géolocalisation etc.</p>
+</section>
+
+
+<!--Ajout des icônes dans des containers-->
+
+<section class="mt-3">
   <div class="container">
-    <h2 class="text-center mb-4">À propos de la Clinique Médicale Malon</h2>
+    <div class="row">
 
-    <p class="lead text-center">
-      Située au cœur de la commune de <strong>Port-Bouët</strong>, près de la grande Mosquée, 
-      la <strong>Clinique Médicale Malon</strong> est un établissement moderne offrant une prise en charge 
-      complète et humaine, grâce à des équipes qualifiées et un plateau technique performant.
-    </p>
+      <!--Items-->
+<!--1-->
+      <div class="col-md-4 d-flex flex-column">
+        <div class="icon-wrapper mx-auto mb-3">
+          <i class="bi bi-telephone-inbound-fill"></i>
+        </div>
+      
+        <h4 class="text-center">Téléphone</h4>
+        <p class="text-center">Vous pouvez nous contacter pour tout vos besoins</p>
+        <p class="text-center">27 21 27 80 44</p>
+        <p class="text-center">01 01 85 93 45</p>
+      </div>
 
-    <div class="mt-4">
-      <h4>Nos services médicaux</h4>
-      <p>
-        Nous proposons une large gamme de services en médecine générale et spécialisée :
-        <strong>cardiologie</strong>, <strong>dermatologie</strong> avec le cabinet esthétique 
-        <strong>Nova Dermax</strong>, <strong>pédiatrie</strong> (ouverte tous les jours), 
-        <strong>gynécologie</strong>, <strong>obstétrique</strong>, <strong>diabétologie</strong>, 
-        <strong>endocrinologie</strong>, <strong>ORL</strong>, <strong>neurologie</strong>, 
-        <strong>gastroentérologie</strong> et <strong>PPH</strong>.
-      </p>
 
-      <h4>Nos services de chirurgie</h4>
-      <p>
-        La clinique est également dotée de services de chirurgie et de spécialités, notamment la 
-        <strong>chirurgie pédiatrique</strong>, l’<strong>urologie</strong>, la 
-        <strong>traumatologie</strong>, la <strong>chirurgie digestive</strong> et la 
-        <strong>chirurgie esthétique</strong>. Un <strong>bloc opératoire moderne</strong> assure 
-        la sécurité et la qualité de toutes les interventions.
-      </p>
+<!--2-->
+      <div class="col-md-4 d-flex flex-column">
+        <div class="icon-wrapper mx-auto mb-3">
+          <i class="bi bi-printer-fill"></i>
+        </div>
+      
+        <h4 class="text-center">Fax</h4>
+      
+        <p class="text-center">27 21 27 80 48</p>
+      </div>
 
-      <h4>Nos autres services médicaux</h4>
-      <p>
-        Nous mettons à votre disposition un <strong>cabinet dentaire</strong>, un 
-        <strong>cabinet d’ophtalmologie</strong> (consultations, réfractométrie, champ visuel, 
-        chirurgie de la cataracte), une <strong>maternité équipée d’une couveuse</strong>, ainsi 
-        qu’un <strong>laboratoire d’analyses médicales ouvert 24h/7</strong>.
-      </p>
 
-      <h4>Imagerie médicale</h4>
-      <p>
-        Notre service d’imagerie médicale propose des examens de <strong>radiologie</strong>, 
-        <strong>ECG</strong>, <strong>ECG-Holter</strong>, <strong>holter tensionnel</strong> 
-        et <strong>scanner</strong>.
-      </p>
+<!--3-->
+      <div class="col-md-4 d-flex flex-column">
+        <div class="icon-wrapper mx-auto mb-3">
+          <i class="bi bi-geo-alt"></i>
+        </div>
 
-      <p class="mt-4">
-        À la Clinique Médicale Malon, chaque patient bénéficie d’un accompagnement personnalisé, 
-        d’une écoute attentive et d’un cadre de soins rassurant. Notre équipe œuvre chaque jour 
-        pour garantir un parcours de soins complet, efficace et humain.
-      </p>
+        <h4 class="text-center">Localisation</h4>
+
+        <p class="text-center">Port-Bouët - Quartier Sogefiha près de la grande Mosquée.</p>
+      </div>
+
+
     </div>
   </div>
 </section>
 
 
 
+
+<!--Maps-->
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3973.015255792199!2d-3.9608806999999993!3d5.2602678!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfc1eee393764815%3A0x234ae9c2b4d82b65!2sCentre%20M%C3%A9dical%20Malon!5e0!3m2!1sfr!2sci!4v1762652391435!5m2!1sfr!2sci" 
+width="100%" 
+height="650vh" 
+style="border:0;
+" allowfullscreen="" 
+loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+</iframe>
+
+
+
+
+
+
+
 <!-- FOOTER -->
 <footer class="bg-white text-black text-center py-3">
-  <p>&copy; 2025 Clinique Médicale Malon | Port-Bouët - Quartier Serges Kassy près de la grande Mosquée.</p>
+  <p>&copy; 2025 Clinique Médicale Malon | Port-Bouët - Quartier Sogefiha près de la grande Mosquée.</p>
   <p>Propulsé par Go Studio</p>
 </footer>
 

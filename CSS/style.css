@@ -89,4 +89,25 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 2px;
   margin: 1rem auto;
 }
+
+.icon-wrapper {
+  width: 90px;
+  height: 90px;
+  background: var(--blanc);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 25px rgba(255, 0, 0, 0.15);
+  transition: transform .3s ease;
+}
+
+.icon-wrapper i {
+  font-size: 38px;
+  color: var(--bleu);
+}
+
+.icon-wrapper:hover {
+  transform: translateY(-5px);
+}
   
