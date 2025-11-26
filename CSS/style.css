@@ -110,4 +110,182 @@ h1, h2, h3, h4, h5, h6 {
 .icon-wrapper:hover {
   transform: translateY(-5px);
 }
+
+
+/* Pour mobiles dont la taille de l'écran est inférieure à 576px*/
+
+@media (max-width:575.98px) {
+  /*NAVBAR*/
+  .navbar-brand img.logo {
+    width: 50px; /*la taille du logo qui est devenue plus petite*/
+  }
+
+  .navbar-nav .nav-link {
+    font-size: 0.9rem;
+    padding: 8px 0;
+  }
+
+  /*HERO CAROUSEL*/
+  .carousel-caption h2 {
+    font-size: 1.1rem ;
+  }
+
+  .carousel-caption p {
+    font-size: 0.85rem ;
+  }
+
+  /*BASICS SERVICES*/
+/*texte principal plus petit et plus lisible*/
+  .herotexte {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+  }
+
+/*texte introductif sous le titre*/
+section.text-center p {
+  font-size: 0.9rem; /*plus compact*/
+  padding: 0 10px; /*aérer sur mobile*/
+  line-height: 1.4;
+}
+
+/*ligne décorative "section-diviser" centrée*/
+.section-diviser {
+  width: 60px; /*réduit pour ne pas surcharger*/
+  height: 3px;
+  margin: 10px auto;
+}
+
+/*Carousel services*/
+
+/*la card devient plus petite et mieux centrée*/
+#valeurs .card {
+  max-width: 90% !important;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+#valeurs .card-body {
+  padding: 15px;
+}
+
+/*texte à l'intérieur des cards*/
+#valeurs .card-text {
+  font-size: 0.8rem;
+  line-height: 1.4;
+}
+
+/*Espacement entre la section précédente et le carousel*/
+#valeurs {
+  margin-top: -20px;
+}
+
+/*Ajustement des flèches du carousel*/
+#valeurs .carousel-control-prev-icon,
+#valeurs .carousel-control-next-icon {
+  width: 25px;
+  height: 25px;
+}
+
+#valeurs .carousel-control-prev,
+#valeurs .carousel-control-next {
+  transform: translateY(20px); /*remonter légèrement*/
+}
+
+  .carousel-inner .carousel-item card-body {
+    padding: 5px 10px;
+  }
+
+  /*ESPACEMENT SECTION*/
+  section {
+    padding: 20px 0 !important;
+  }
+
+  /*IMAGES ABOUT*/
+  .container img.img-fluid {
+    border-radius: 10px;
+  }
+
+  /*CARDS DES SERVICES*/
+  .card h2 {
+   font-size: 1.5rem;
+  }
+
+  .card p {
+   font-size: 0.9rem;
+  }
+
+  /*GALERIE*/
+  .col-md-3 {
+    width:50% ;
+    padding: 5px 10px 5px 20px;
+  }
+
+  /*MAPS*/
+  iframe {
+    height: 400px !important; /*pour éviter trop de scroll*/
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar > .container-lg {
+    display: flex !important;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    gap: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  
+  .navbar-collapse {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    z-index: 999;
+    transition: all 0.3s ease;
+  }
+
+  .navbar-collapse:not(.show) {
+    display: none !important;
+  }
+
+  .navbar-collapse.show {
+    display: block !important;
+  }
+
+  .navbar-nav {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .navbar-nav .nav-link {
+    padding: 0.75rem 0;
+    font-size: 1.1rem;
+  }
+
+  .navbar .btn {
+    display: block;
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+  .navbar-toggler {
+    border: none;
+  }
+
+  .navbar-toggler-icon {
+    filter: invert(0);
+  }
+
+  .navbar-brand .logo {
+    width: 70px;
+  }
+  
+}
   
