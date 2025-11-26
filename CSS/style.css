@@ -224,6 +224,17 @@ section.text-center p {
   iframe {
     height: 400px !important; /*pour éviter trop de scroll*/
   }
+
+  /*A propos*/
+  section .mt-5 {
+    margin-top: 2rem !important;
+  }
+
+  .container .row img.img-fluid {
+    width: 100%;
+    margin-bottom: 1.5rem;
+  }
+
 }
 
 @media (max-width: 768px) {
